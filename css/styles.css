@@ -1,0 +1,21 @@
+/*
+Estilos propios
+*/
+
+/*Main*/
+
+footer{ background: #4b354c;}
+header{background:#4b354c ;}
+
+/*Structure*/
+.container{padding: 200px 0 100px 0;}
+.section{padding: 100px 0; }
+
+#about{background: #fff;}
+#education{background:#eaedf2;}
+#work{background:#fff;}
+#interest{background:#eaedf2;}
+#contact{background: #fff;}
+#work{background: #fff;}
+
+/* Colores */
