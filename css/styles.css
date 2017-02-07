@@ -5,7 +5,7 @@ V 1.0
 
 /*Main*/
 
-footer{ background: #444;}
+footer{ background: #4b354c; color: white;}
 header{background:#4b354c; text-align: center; padding: 200px 0;}
 
 /*Structure*/
@@ -19,20 +19,24 @@ header{background:#4b354c; text-align: center; padding: 200px 0;}
 #experience h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
 #skills{background: #eaedf2; text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #skills h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
+#skills i{ color: #4b354c;}
 #quote{background: #544856; text-align: center;}
 #work{background:#fff; text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #work h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
 #contact{background: #fff;}
 #interest{background:#eaedf2; text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #interest h2{ text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
-#contact{background: gray; text-align: center; font-family: 'Source Sans Pro', sans-serif; ;}
+#interest h3{font-size: 20px; font-weight: 200;}
+#contact{background: gray; text-align: center; }
 #contact h2{ color: #fff; font-weight: bold; font-size: 40px;}
 
 .container{padding: 80px 0 100px 0;}
 .section{padding: 80px 0; }
+.upspace{ padding-top: 60px; }
 .headerWrapper{ background: url(../img/header-background.jpg) no-repeat center center; background-size: cover; width: 100%; }
 .headerWrapper::before{content= ''; position: absolute; top=0; right: 0; bottom: 0; left: 0; background-image:  linear-gradient(to bottom right, #002f4b, #dc4225); opacity: .6; z-index: 3;}
-
+.contactWrapper{ background: url(../img/contact-background.jpg) no-repeat center center; background-size: cover;width: 100%}
+.skills-subtitle{padding: 10px 0; text-align: left;}
 /*Svg*/
 .lil{width: 110px;}
 .lil path {fill:#ffffff;}
