@@ -1,7 +1,7 @@
 /*=====================================
 Bootstrap curriculum vitae theme
 By: Jorge Duarte Alvarez
-
+www.github.com/piris
 V 1.0
 ======================================*/
 
@@ -19,18 +19,9 @@ header{background:#4b354c; text-align: center; padding: 200px 0;}
 #education h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
 #experience{ background: #fff;text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #experience h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
-
 #skills{background: #eaedf2; text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #skills h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
 #skills i{ color: #4b354c;}
-.progress-bar-skill {
-  background-image: -webkit-linear-gradient(top, #907E8E 0%, #472943 100%);
-  background-image:      -o-linear-gradient(top, #907E8E 0%, #472943 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#907E8E), to(#472943));
-  background-image:         linear-gradient(to bottom, #907E8E 0%, #472943 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff907E8E', endColorstr='#ff472943', GradientType=0);
-  background-repeat: repeat-x;
-}
 #quote{background: #544856; text-align: center;}
 #work{background:#fff; text-align: center; font-family: 'Source Sans Pro', sans-serif;}
 #work h2{text-align: center; background: -webkit-linear-gradient(#d64b44,#534254); font-weight: bold; font-size:40px ;-webkit-background-clip:text;-webkit-text-fill-color:transparent; }
@@ -47,10 +38,17 @@ header{background:#4b354c; text-align: center; padding: 200px 0;}
 .upspace{ padding-top: 60px; }
 .headerWrapper{ background: url(../img/header-background.jpg) no-repeat center center; background-size: cover; width: 100%; }
 .headerWrapper::after{content= ''; position: absolute; top=0; right: 0; bottom: 0; left: 0; background-image:  linear-gradient(to bottom right, #002f4b, #dc4225); opacity: .6; z-index: 3;}
-.header-overlay{ position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 1; background-image: -webkit-linear-gradient(bottom, #472943 0%, rgba(189, 69, 70, 0.3) 60%);}
+/*.header-overlay{ width: 100%;position: absolute; left: 0; top: 0; right: 0; bottom: 0; z-index: 1; background-image: -webkit-linear-gradient(bottom, #472943 0%, rgba(189, 69, 70, 0.3) 60%);} */
 .contactWrapper{ background: url(../img/contact-background.jpg) no-repeat center center; background-size: cover;width: 100%}
 .skills-subtitle{padding: 10px 0; text-align: left;}
-
+.progress-bar-skill {
+  background-image: -webkit-linear-gradient(top, #907E8E 0%, #472943 100%);
+  background-image:      -o-linear-gradient(top, #907E8E 0%, #472943 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#907E8E), to(#472943));
+  background-image:         linear-gradient(to bottom, #907E8E 0%, #472943 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff907E8E', endColorstr='#ff472943', GradientType=0);
+  background-repeat: repeat-x;
+}
 /*Svg*/
 .lil{width: 110px;}
 .lil path {fill:#ffffff;}
