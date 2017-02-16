@@ -1,5 +1,5 @@
 # Simple CV Bootstrap theme
-Template based on Bootstrap 3 for a curriculum vitae
+Theme based on Bootstrap 3 for a curriculum vitae
 
 ## Copyright and License
 
